@@ -1,0 +1,1 @@
+this contain for loop, for in ,for of and creating a resume using JSON
