@@ -29,27 +29,53 @@ for(var ans of a){
 
 // Q2 create your own resume data in JSON format:
 
-let resume={
-    "name":"imayavarman",
-    "dob":"20.01.2001",
-    "age":"22",
-    "education":["10th","12th","B.E"],
-    "address":["abcd street","631209","thiruvallur","tamilnadu"],
-    "strengths":"positive thinker",
-    "maritalstatus":"single",
-    "sex":"male",
-    "fathername":"prakash",
-    "date":"30.10.2023",
-    "contact details":"abcd@gmail.com"}
-console.log(resume);
-console.log(resume.name);
-console.log(resume.dob);
-console.log(resume.age);
-console.log(resume.education[0],resume.education[1],resume.education[2]);
-console.log(resume.address[0],resume.address[1],resume.address[2],resume.address[3],);
-console.log(resume.strengths);
-console.log(resume.maritalstatus);
-console.log(resume.sex);
-console.log(resume.fathername);
-console.log(resume.date);
-console.log(resume["contact details"]);
+const myResume={
+    "basics": {
+        "name": "emayavarman pk",
+        "email": "emayavarmanpk@gamil.com",
+        "phone": 9876543210,
+        "degree": "B.Tech",
+        "location": {
+          "address": "1,Welcome city,Tambaram",
+          "postalCode": 600030,
+          "city": "Chennai",
+          "state": "Tamilnadu",
+          "country": "India"
+        },
+        "profiles": [
+          {
+            "website": "https://www.linkedin.com/in/emayavarmanpk/",
+            "github":"https://github.com/Emayavarmanpk"
+          }
+        ]
+      },
+      
+      "education": [
+        {
+          "institution": "Bharth university",
+          "department": "Mechatronics",
+          "studyType": "fulltime",
+          "batch start year": 2019,
+          "batch end year": 2022,
+          "CGPA": 8.4,
+        }
+      ],
+      "skills": [
+        {
+          "name": "javascript",
+          "level": "beginer",
+          
+        }
+      ],
+      "languages": [
+        {
+          "language": "Tamil,Enlish",
+        }
+      ],
+      "interests": [
+        {
+          "name": "Playing shuttle,Story reading,",
+        }
+      ]
+    }
+    console.log(myResume);
